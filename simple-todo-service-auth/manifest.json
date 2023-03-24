@@ -1,0 +1,22 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "TODO Plugin (service http)",
+  "name_for_model": "todo",
+  "description_for_human": "Plugin for managing a TODO list, you can add, remove and view your TODOs.",
+  "description_for_model": "Plugin for managing a TODO list, you can add, remove and view your TODOs.",
+  "auth": {
+    "type": "service_http",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "758e9ef7984b415688972d749f8aa58e"
+    }
+  },
+   "api": {
+    "type": "openapi",
+    "url": "https://example.com/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://example.com/logo.png",
+  "contact_email": "dummy@email.com",
+  "legal_info_url": "http://www.example.com/legal"
+}

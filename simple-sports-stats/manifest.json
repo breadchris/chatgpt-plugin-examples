@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Sport Stats",
+  "name_for_model": "sportStats",
+  "description_for_human": "Get current and historical stats for sport players and games.",
+  "description_for_model": "Get current and historical stats for sport players and games. Always display results using markdown tables.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "PLUGIN_HOSTNAME/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "PLUGIN_HOSTNAME/logo.png",
+  "contact_email": "dummy@email.com",
+  "legal_info_url": "http://www.example.com/legal"
+}

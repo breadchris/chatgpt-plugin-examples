@@ -1,0 +1,3 @@
+quart
+quart_cors
+requests

@@ -1,0 +1,17 @@
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+env.bak/
+*.egg-info/
+
+# Logs
+*.log
+
+# Other
+.idea/
+.vscode/
+*.DS_Store
