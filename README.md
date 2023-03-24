@@ -8,6 +8,7 @@ Each example includes a Dockerfile to help with deployment of the plugin. You ca
 git clone https://github.com/breadchris/chatgpt-plugin-examples.git
 cd chatgpt-plugin-examples/simple-todo-no-auth
 python -m venv env
+. env/bin/activate
 pip install -r requirements.txt
 python serve.py
 ```
